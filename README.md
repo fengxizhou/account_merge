@@ -1,7 +1,7 @@
 # account_merge
 
 ## Purpose of the scripts
-The account merge scripts (located at /usr/local/hpc/scripts/merge_accounts.py) merges teh accounts on the master node to a compute or service node. The script is created to solve the issue that simple sync teh accounts file (/etc/passwd, /etc/group, and /etc/shadow) may overwrite some system accounts local to the compute or service node.
+The account merge scripts (located at /usr/local/hpc/scripts/merge_accounts.py) merges the accounts on the master node to a compute or service node. The script is created to solve the issue that simple sync teh accounts file (/etc/passwd, /etc/group, and /etc/shadow) may overwrite some system accounts local to the compute or service node.
 
 ## How to use the scripts
 The following cookbook synchronizes the account files from master to a new server node newnode.
